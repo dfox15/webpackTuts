@@ -5,9 +5,10 @@
     "main": "index.js",
     "scripts": {
         "clean": "rimraf dist",
-        "build": "npm run clean && webpack"
+        "build": "npm run clean && webpack",
+        "serve": "webpack-dev-server"
     },
-    "repository": "https://github.com/StephenGrider/WebpackProject",
+    "repository": "https://github.com/dfox15/webpackTut",
     "author": "",
     "license": "ISC",
     "dependencies": {
@@ -31,6 +32,7 @@
         "html-webpack-plugin": "^2.24.1",
         "rimraf": "^3.0.2",
         "style-loader": "^0.13.1",
-        "webpack": "2.2.0-rc.0"
+        "webpack": "2.2.0-rc.0",
+        "webpack-dev-server": "^2.2.0-rc.0"
     }
 }
