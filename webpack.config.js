@@ -35,5 +35,10 @@ module.exports = {
                 test: /\.css$/
             }
         ]
-    }
+    },
+    plugins: [
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'vendor'
+        })
+    ]
 }
